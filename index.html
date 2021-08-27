@@ -1,0 +1,157 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="juegos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title> Mi primer sitio web</title>
+
+    <style>
+        .titulo{
+            text-align: center;
+        }
+        
+        header{
+            background-color: brown;
+            color: white;
+        }
+        main{
+            background: orange;
+            text-align: center;
+            margin: auto;
+        }
+
+        footer{
+
+            background: pink;
+        }
+        
+        .fotoproducto{
+            width: 200px;
+        }
+
+        .contenedor{
+            display: flex;
+        }
+
+        @media (max-width: 600px){
+            .contenedor{
+                flex-direction: column;
+            }
+        }
+
+        .producto2{
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+        .redes_sociales{
+            display: flex;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px){
+            .redes_sociales{
+                flex-direction: column;
+            }
+        }
+        .fotoredsocial{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .tienda{
+            padding: 40px;
+        }
+        .tienda_carla{
+            display: flex;
+        }
+
+        .textotienda{
+            margin-right: 40px;
+            width: 40%;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CARLA</h1> 
+        <p>jeje aqui escribo lo que quiero</p>
+   
+        <img src="gato-raton.jpg" id="foto_port">
+   
+     <div>
+        <h1 class="titulo">
+            Esta es mi tienda
+        </h1>
+
+     </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="producto1">
+                <h2>
+                    Producto 1
+                </h2>
+                <img src=gato-raton.jpg class="fotoproducto">
+            </div>
+        
+            <div class="producto2">
+                <h2>
+                    Producto 2
+                </h2>
+                <img src=gato-raton.jpg class="fotoproducto">
+            </div>
+      
+            <div class="producto3">
+                <h2>
+                    Producto 3
+                </h2>
+                <img src=gato-raton.jpg class="fotoproducto">
+            </div>
+     
+        </div>
+        <div class=tienda_carla>
+            <div class="textotienda">
+               <H3>
+                   Tienda Carla
+               </H3> 
+               <p>LERO PAN CON HUEVOLERO PAN CON HUEVO
+                   LERO PAN CON HUEVOLERO PAN CON HUEVO
+                   LERO PAN CON HUEVOLERO PAN CON HUEVO
+                   LERO PAN CON HUEVOLERO PAN CON HUEVO
+                   LERO PAN CON HUEVOLERO PAN CON HUEVO
+                   LERO PAN CON HUEVOLERO PAN CON HUEVO
+                   LERO PAN CON HUEVO</p>
+            </div>
+        <div class="tienda">
+            <iframe src="https://www.google.com/maps/place/Golder+%2F+WSP/@-33.4172037,-70.6088497,15z/data=!4m9!1m2!2m1!1sgolder+chile!3m5!1s0x9662cf3e40e98a43:0xf47dd15cf2dcf1ce!8m2!3d-33.4136295!4d-70.5936187!15sCgxnb2xkZXIgY2hpbGUiA4gBAZIBFmVuZ2luZWVyaW5nX2NvbnN1bHRhbnQ"></iframe>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h4>redes sociales</h4>
+        </div>
+        <div class="logo_sitio">
+            <img src="gato-raton.jpg">
+        </div>
+
+    <div class="redes_sociales">
+        <div>
+            <img src=gato-raton.jpg class=fotoredsocial>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/jojoencuadernaciones/" target="_blank">
+            <img src=gato-raton.jpg class=fotoredsocial>
+        </a>
+
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>
